@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Midias em html5</title>
+  </head>
+  <body>
+    <h1>Imagem dinâmica</h1>
+    <p>
+      tente abrir esse site em vários dispositivos diferentes ou simplesmente
+      aumente e miminua o tamanho do seu navegador
+    </p>
+
+    <picture>
+      <!--a foto precisa ser em formato .PNG-->
+      <source
+        media="(max-width:750px )"
+        srcset="images/foto-p.png"
+        type="image/png"
+      />
+      <source
+        media="(max-width:1050px )"
+        srcset="images/foto-m.png"
+        type="image/png"
+      />
+      <img src="images/foto-g.png" alt="imagem flexivel" />
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+
+    <!-- tipo simples rapido e facil-->
+    <p>vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/Curadora.mp3" controls></audio>
+
+    <!--Com esse modelo roda em multiplos browsers -->
+    <audio controls>
+      <source src="midia/Curadora.mp3" type="audio/mpeg" />
+      <source src="midia/Curadora.og" type="audio/og" />
+      <source src="midia/Curadora.wav" type="audio/wav" />
+      <p>infelizmente o seu navegador nao consegue reproduzir o áudio</p>
+    </audio>
+  </body>
+</html>

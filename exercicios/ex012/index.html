@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Videos com HTML5</title>
+  </head>
+  <body>
+    <h1>inserindo videos hospedados localmente</h1>
+    <p>Este video está hospedado no meu própio servidor.</p>
+    <video controls width="350" poster="images/doguinho.jpeg">
+      <source src="midia/lildog1080.mp4" type="video/mp4" />
+      <source src="midia/Lildog.mkv" type="video/mkv" />
+      <source src="midia/lildog1080.ogv" type="video/ogv" />
+      <p>Seu navegador nem tem compatibilidade com reprodução de video</p>
+    </video>
+
+    <!-- it is recommend to use the videos from youtube so ur site will not get overload with data this will cost more money on the hoste payment. the option is->> SHARE>>IMBED>>COPY-->
+    <iframe
+      width="350"
+      height="200"
+      src="https://www.youtube.com/embed/nCKwUB8EVbc?si=2gwVJLMJXKaFpn8Z"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>

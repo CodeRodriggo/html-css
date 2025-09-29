@@ -1,0 +1,43 @@
+@charset"UTF-8";
+
+/* 
+ tudo que é id no HTML no css é ->> # (so pode 1 elemento por documento.)
+ tudo que é class em HTML no css é ->> . (pode ter varias)
+*/
+
+body{
+    background-color: rgb(205, 218, 185);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    color: green;
+}
+h2{
+    color: greenyellow;
+}
+
+h1#principal{
+    text-align: center;
+    
+
+}
+
+.basico{
+    color: blueviolet;
+    font-style: italic;
+}
+
+.intermediario{
+    color: brown;
+} 
+
+.avancado{
+    color: blue;
+
+}
+
+.destaque{
+    background-color: bisque;
+}
