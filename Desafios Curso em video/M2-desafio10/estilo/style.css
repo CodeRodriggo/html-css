@@ -147,7 +147,7 @@ main img.pequena{
 
 main h1{
     color: var(--cor5);
-    font-family: var(--font-droid);
+    font-family: 'var(--font-droid);'
 }
 
 main h2{
