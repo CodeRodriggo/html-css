@@ -2,9 +2,10 @@
 
 Curso de HTML5 & CSS3
 
-Dia 23 (programando)
+Dia 25 (programando)
 ->LOGICA DE PROGRAMAÇÃO: [status]: Finished;
 ->HTML5 & CSS3: [status]: Loading, Current-MODULO 3/5;
 Atualmente aprendendo HTML e CSS3 e como configurar git/github.
+Aprendendo a mexer com imagens de fundo background-image:linear-gradient()/url()
 
-<a href="https://coderodriggo.github.io/html-css/exercicios/ex001"> acessar exercicio numero 1</a>
+<a href="https://coderodriggo.github.io/html-css/exercicios"> acessar exercicios</a>
