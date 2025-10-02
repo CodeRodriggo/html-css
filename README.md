@@ -10,4 +10,4 @@ Aprendendo a mexer com imagens de fundo background-image:linear-gradient()/url()
 
 <a href="https://github.com/CodeRodriggo/html-css/tree/main/exercicios" target="_blank"> acessar exercicios</a>
 <br>
-<a href="https://coderodriggo.github.io/html-css/exercicios/ex022" target="_blank"> acessar ex022 </a>
+<a href="https://github.com/CodeRodriggo/html-css/tree/main/exercicios/ex022" target="_blank"> acessar ex022 </a>
