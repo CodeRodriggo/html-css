@@ -8,4 +8,4 @@ Dia 25 (programando)
 Atualmente aprendendo HTML e CSS3 e como configurar git/github.
 Aprendendo a mexer com imagens de fundo background-image:linear-gradient()/url()
 
-<a href="https://coderodriggo.github.io/html-css/exercicios"> acessar exercicios</a>
+<a href="https://coderodriggo.github.io/html-css/exercicios/" target="_blank"> acessar exercicios</a>
