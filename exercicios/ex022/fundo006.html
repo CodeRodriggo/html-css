@@ -3,22 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
       body {
+        /* height: 100vh;
         background-color: black;
         background-image: url(images/wallpaper002.jpg);
         background-position: center center;
         background-repeat: repeat-y;
-        height: 100vh;
         background-size: cover; /* preenche tudo mas corta a imagem ao diminuir*/
-
         /*background-size: contain; (imagem fica "mas nao preenche tudo") */
+        /*background-attachment:fixed;
+        /*---------------------------------------------------------------*/
+        
+
+        background: black url(images/wallpaper002.jpg) center center/cover
+          repeat-y fixed;
+
+          /* Shorthand backgorund: color > image > position > repeat/size > attachment;
+        */
       }
 
       main {
         background-color: white;
-        width: 400px;
+        max-width: 400px;
         padding: 10px;
         margin: auto;
         border-radius: 10px;
@@ -30,6 +38,33 @@
     <main>
       <div>
         <h1>Teste de imagem de fundo</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae,
+          nobis! Animi non tenetur magni eaque placeat accusantium ut quis
+          voluptatibus voluptatum qui nemo deleniti aspernatur, amet, nisi ad
+          dolorum vitae. Aliquid dolor voluptates quos ad eaque similique sunt
+          quae et obcaecati expedita, doloremque praesentium commodi nam
+          accusantium dicta laudantium nostrum ipsam dolore quia pariatur sed
+          vitae illum earum quaerat. Hic!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae,
+          nobis! Animi non tenetur magni eaque placeat accusantium ut quis
+          voluptatibus voluptatum qui nemo deleniti aspernatur, amet, nisi ad
+          dolorum vitae. Aliquid dolor voluptates quos ad eaque similique sunt
+          quae et obcaecati expedita, doloremque praesentium commodi nam
+          accusantium dicta laudantium nostrum ipsam dolore quia pariatur sed
+          vitae illum earum quaerat. Hic!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae,
+          nobis! Animi non tenetur magni eaque placeat accusantium ut quis
+          voluptatibus voluptatum qui nemo deleniti aspernatur, amet, nisi ad
+          dolorum vitae. Aliquid dolor voluptates quos ad eaque similique sunt
+          quae et obcaecati expedita, doloremque praesentium commodi nam
+          accusantium dicta laudantium nostrum ipsam dolore quia pariatur sed
+          vitae illum earum quaerat. Hic!
+        </p>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae,
           nobis! Animi non tenetur magni eaque placeat accusantium ut quis
