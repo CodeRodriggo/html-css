@@ -1,0 +1,32 @@
+@charset"UTF-8";
+
+*{
+    margin: 0;
+    padding: 0.5px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 200vh;
+    padding-top: 30vh;
+}
+
+.container{
+    background-color: aqua;
+    width: 350px;
+    height: 350px;
+    position:sticky;
+    top: 0.5px;
+}
+
+.content{
+    background-color: blueviolet;
+    width: 150px;
+    height: 150px;
+
+
+}
+
+
+
+
