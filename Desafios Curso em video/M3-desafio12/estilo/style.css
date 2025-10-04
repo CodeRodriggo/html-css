@@ -1,16 +1,45 @@
 @charset"-TF8";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bebas+Neue&family=Cinzel:wght@400..900&family=Passion+One:wght@400;700;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --font1: Arial, Helvetica, sans-serif;
+    --badscript: "Bad Script", cursive;
+    --cinzel: "Cinzel", serif;
+
+}
+
+#img01{
+    background-image: url(../imagens/background001.jpg);
+    background-size: cover;
+
+    
+}
+
+#img02{
+    background-image: url(../imagens/background002.jpg);
+    background-size: cover;
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 section > pre{
     white-space: pre-line;
+    font-family: var(--badscript);
+    font-weight: 400;
+    font-style: normal;
+    font-size:x-large;
 }
 
 html, body{
     min-width: 100vh;
     background-color: darkgray;
+    font-family: var(--font1);    
 }
 
 header{
@@ -22,10 +51,14 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--cinzel);
+    font-size: 6vh;
 }
 
 header > p{
     padding-bottom: 50px;
+    font-family: var(--cinzel);
+    font-size: small;
 }
 
 a{
@@ -53,12 +86,16 @@ section.normal{
 section.imagem{
     background-color:black;
     color: white;
+    box-shadow: inset 3px 3px 9px rgba(0, 0, 0, 0.614);
+    background-attachment: fixed;
 
 }
 
 section.imagem  pre{
-    background-color: rgba(202, 195, 195, 0.174);
+    background-color: rgba(41, 39, 39, 0.305);
     width: 300px;
+    text-shadow: 2px 2px 7px black;
+    display: inline-block;
 
 }
 
