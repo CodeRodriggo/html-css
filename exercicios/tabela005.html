@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        th, td{
+            border: solid 1px black;
+            padding: 3px;
+
+        }
+
+        .col1{
+            background-color: aqua;
+        }
+        
+        .col2{
+            background-color: rgba(127, 255, 212, 0.808);
+        }
+
+        .col3{
+            background-color:rgba(128, 0, 128, 0.337) ;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Mudando cor de tabela verticalmente com a tag >colgroup<</h1>
+    <table>
+        <colgroup>
+            <col class="col1">
+            <col class="col2">
+            <col class="col3" span="2">
+
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornaslista</td>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornaslista</td>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornaslista</td>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornaslista</td>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornaslista</td>
+            </tr>
+        </thead>
+    </table>
+    
+</body>
+</html>
