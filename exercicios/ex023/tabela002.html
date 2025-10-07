@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TABELA</title>
+    <style>
+    
+      table {
+        width: 400px;
+        border-collapse: collapse; 
+        position: relative;   
+      }
+
+      td,th {
+        border: solid 1px black;
+        padding: 3px;
+      }
+      thead {
+        background-color: antiquewhite;
+        text-align: lef;
+        position: sticky;
+        top: 1px;
+        border: solid 1px black;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.593);
+      }
+
+       tfoot {
+        background-color: antiquewhite;
+        text-align: lef;
+       }
+      .num {
+        text-align: right;
+        background-color: aquamarine;
+      }
+
+      .pop{
+        width: 100px; 
+
+      }
+      
+      .total1{
+        text-align: right;
+      }
+
+      tbody > tr:nth-child(even){
+            background-color: beige;
+            font-style: italic;
+
+      }
+      
+
+      tbody > tr:nth-child(odd){
+        background-color: aquamarine;
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>USO DE TABELAS GRANDES</h1>
+    <!-- ANATOMIA DE UMA TABELA GRANDE
+        TABLE
+            THEAD
+                tr td 
+                TBODY
+                    tr td
+                    TFOOT
+                        tr td -->
+
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">ESTADO</th>
+          <th scope="col" class="pop">POPULAÇÃO</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>SÃO PAULO</td>
+          <td class="num">41.154.124</td>
+        </tr>
+        <tr>
+          <td>MINAS GERAIS</td>
+          <td class="num">21.168.942</td>
+        </tr>
+        <tr>
+          <td>RIO DE JANEIRO</td>
+          <td class="num">17.000.000</td>
+        </tr>
+        <tr>
+          <td>BAHIA</td>
+          <td class="num">10.000.000</td>
+        </tr>
+        <tr>
+          <td>PARANA</td>
+          <td class="num">9.000.000</td>
+        </tr>
+        <tr>
+          <td>Rio grande do SUL</td>
+          <td class="num">8.000.000</td>
+        </tr>
+        <tr>
+          <td>PERNAMBUCO</td>
+          <td class="num">7.000.000</td>
+        </tr>
+        <tr>
+          <td>CEARA</td>
+          <td class="num">6.000.000</td>
+        </tr>
+        <tr>
+          <td>PARA</td>
+          <td class="num">5.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+        <tr>
+          <td>SANTA CATARINA</td>
+          <td class="num">4.000.000</td>
+        </tr>
+
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th scope="row">Total de habitantes</th>
+          <td class="total1">122.000.000</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

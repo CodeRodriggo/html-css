@@ -1,51 +1,141 @@
 <!DOCTYPE html>
 <html lang="br-pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TABELA</title>
     <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      td {
+        border: solid 1px black;
+      }
+      tr.linha1 {
+        background-color: aquamarine;
+        text-align: center;
+      }
 
-        table{
-            width: 100%;
-            border-collapse: collapse;
-        }
-        td{
-            border: solid 1px black;
+      .dados1 {
+        background-color: bisque;
+        text-align: center;
+      }
+      .dados1:hover {
+        text-decoration: underline;
+        color: aquamarine;
+        background-color: beige;
 
-        }
-        tr.linha1{
-            background-color: aquamarine;
-            text-align: center;
-        }
 
-        .dados1{
-            background-color: bisque;
-            text-align: center;
-            
-        }
-        .dados1:hover{
-            text-decoration: underline;
-            color: aquamarine;
-            background-color: beige;
-        }
+      }
+/*----------------------TABELA 2----------------------*/
+
+      caption{
+        background-color: beige;
+        border: solid 1px black;
+      }
+
+      #table2 {
+        margin-top: 10vh;
+        width: 600px;
+      }
+
+      #headfoot2 {
+        background-color: rgba(128, 128, 128, 0.621);
+        text-align: center;
+      }
+
+      .num {
+        text-align: right;
+      }
+
+      #gg {
+        background-color: aquamarine;
+      }
+      .gg1{
+        text-align: left;
+      }
+
+      tbody > tr:nth-child(odd){ /* nth-child(2n-1*/
+        background-color: aqua;
+        font-weight: bolder;
+      }
+
+      tbody > tr:nth-child(even){ /* nth-child(2n*/
+        background-color: orange;
+        font-style: italic;
+      }
+
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <caption>
+      lalalala LALALA LALALAL LALALLA
+    </caption>
     <h1>Formulario</h1>
     <table>
-        <tr class="linha1">
-            <td>Nome</td>
-            <td>Sobrenome</td>
-            <td>Idade</td>
-            <td>Sexo</td>
+      <tr class="linha1">
+        <td>Nome</td>
+        <td>Sobrenome</td>
+        <td>Idade</td>
+        <td>Sexo</td>
+      </tr>
+      <tr>
+        <td class="dados1"><a href="#" target="_blank">eu</a></td>
+        <td class="dados1">eumsm</td>
+        <td class="dados1">e</td>
+        <td class="dados1">irene</td>
+      </tr>
+    </table>
+
+    <!-- ----------------- TABELA 2 ------------------ -->
+
+
+    <table id="table2">
+        <caption>TABELA DE INDENTIFICAÇÃO</caption>
+      <thead id="headfoot2">
+        <tr>
+          <td>NOME</td>
+          <td>SOBRENOME</td>
+          <td>IDADE</td>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>ANTONIO</td>
+          <td>RODRIGO</td>
+          <td class="num">32</td>
         </tr>
         <tr>
-            <td class="dados1"> <a href="#" target="_blank">eu</a></td>
-            <td class="dados1">eumsm</td>
-            <td class="dados1">e</td>
-            <td class="dados1">irene</td>
+          <td>ANTONIO</td>
+          <td>RODRIGO</td>
+          <td class="num">32</td>
         </tr>
+        <tr>
+          <td>ANTONIO</td>
+          <td>RODRIGO</td>
+          <td class="num">32</td>
+        </tr>
+        <tr>
+          <td>ANTONIO</td>
+          <td>RODRIGO</td>
+          <td class="num">32</td>
+        </tr>
+        <tr>
+          <td>ANTONIO</td>
+          <td>RODRIGO</td>
+          <td class="num">32</td>
+        </tr>
+      </tbody>
+
+      <tfoot id="headfoot2">
+        <tr>
+          <td class="gg1">GG</td>
+          <td class="gg1">GG</td>
+          <td class="num" id="gg">GG</td>
+        </tr>
+      </tfoot>
     </table>
-</body>
+  </body>
 </html>
