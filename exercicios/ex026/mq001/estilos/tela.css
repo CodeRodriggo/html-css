@@ -1,0 +1,63 @@
+@charset"UTF-8";
+/*estilos para tela*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header{
+    background-color: antiquewhite;
+
+}
+header > h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header menu{
+    padding-left: 15px;
+    padding-bottom: 5px;
+        
+}
+header ul > li{
+    display: inline-block;
+    padding: 10px;
+}
+
+main{
+    margin: 10px;
+}
+article > h2{
+    padding-bottom: 15px;
+}
+
+main p{
+    text-indent: 10px;
+    padding-bottom: 10px;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;    
+}
+
+div > footer{
+    background-color: skyblue;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+
+div > footer:hover{
+    text-decoration: underline;
+    color: orangered;
+    text-shadow: 3px 3px 7px black;
+    
+}
+
