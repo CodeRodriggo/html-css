@@ -18,7 +18,7 @@ header > h1{
     text-align: center;
 }
 
-#menu{
+#burger{
     background-color: rgb(70, 69, 69);
     display: block;
     color: white;
@@ -27,7 +27,7 @@ header > h1{
     cursor: pointer;
 }
 
-#menu:hover{
+#burger:hover{
     background-color: white;
     color: black;
 }
