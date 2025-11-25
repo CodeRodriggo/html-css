@@ -3,45 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>flexbox - order</title>
+    <title>flexbox - flex-bases</title>
     <style>
 
         .container{
             display: flex;
             background-color: lightcoral;
-            flex-flow: row wrap;
+            flex-flow: row nowrap;
+            align-items: flex-start;
             
         }
 
         .item{
             background-color: rgb(169, 227, 169);
-            padding: 20px;
+            padding: 10px;
             border: 1px solid black;
             
         }
 
-       #i1{
-        order: 2;
-       }
-
-       #i5{
-        order: -1;
-       }
-
-       #i6{
-        order: 3;
-       }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <div class="item" id="i1">A</div>
-        <div class="item" id="i2">B</div>
-        <div class="item" id="i3">C</div>
-        <div class="item" id="i4">D</div>
-        <div class="item" id="i5">E</div>
-        <div class="item" id="i6">F</div>
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
 
     </div>
     
