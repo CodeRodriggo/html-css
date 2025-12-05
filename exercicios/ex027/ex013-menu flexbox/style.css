@@ -29,6 +29,11 @@ header > h1{
 
 header > nav{
     border: 1px solid black;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
 }
 
 main{
