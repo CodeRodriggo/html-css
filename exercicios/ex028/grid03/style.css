@@ -1,0 +1,20 @@
+@charset"UTF-8";
+
+body, html {
+    background-color: peru;
+}
+
+
+div.container{
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    
+}
+
+div.item{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border: solid 1px black;
+    
+}
