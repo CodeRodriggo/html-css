@@ -10,29 +10,36 @@ div.container{
 
         div.caixa1{
            display: grid;
-           justify-items: center;
-           grid-column-start: 1;
-           grid-column-end: 6;
            background-color: red;
+           justify-items: center;
+           /* grid-column-start: 1;
+           grid-column-end: 6; */
+
+           grid-column: 1/-1;    /*simplicando*/  
         }
 
         div.caixa2{
             display: grid;
+            background-color: green;
             justify-items: center;
-            grid-column-start: 1;
+            /* grid-column-start: 1;
             grid-column-end: 3;
             grid-row-start: 2; 
-            grid-row-end: 4;
-            background-color: green;
+            grid-row-end: 4; */
+            
+            grid-column: 1/span 2;  /*simplicando*/ 
+            grid-row: 2/4;
         }
 
         div.caixa3{
             display: grid;
+            background-color: blue;
             justify-items: center;
-            grid-column-start: 4;
+            /* grid-column-start: 4;
             grid-column-end: 6;
             grid-row-start: 2; 
-            grid-row-end: 4;
-            background-color: blue;
-           
+            grid-row-end: 4;   */
+            
+            grid-column: 4/span 5 ; /*simplicando*/ 
+            grid-row: 2/4 ;
         }
