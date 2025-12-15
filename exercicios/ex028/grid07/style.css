@@ -40,6 +40,7 @@ div.menu{
     background-color: peru;
     grid-row: 3/5;
     grid-column: 1/4 ;
+    
 }
 
 div.secundario{
@@ -53,7 +54,7 @@ div.secundario{
 }
 
 footer{
-    background-color: lightpink;
+    background-image: linear-gradient(to right, rgb(34, 215, 231), rgb(220, 217, 59));
     border: solid 1px black;
     height: 50px;
     text-align: center;
